@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(ss.jpg);
+    background-size: cover;
+
+ 
+}
+.container{
+    width: 50%;
+    margin: 50px auto;
+    height: 900px;
+
+}   
+.contact-box{
+    background: #fff;
+    display: flex;
+
+}  
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 6opx;
+    
+
+}
+.contact-right{
+    
+    flex-basis: 40%;
+    padding: 40px;
+    background-image: url(ss.jpg);
+    background-size: cover;
+    transform: scaleX(-1);
+
+    
+}
+.contact-right> h3, h6{
+    transform: scaleX(-1);
+}
+
+
+h2{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 0px;
+
+}
+.fff{
+    width: 10%;
+    height: 10%;
+}
+.box 
+{
+    width: 300px;
+    padding: 40px; 
+    
+}
+.box input, label[type = "text"],.box input, label[type = "password"]{
+    border: 0;
+    background:none ;
+    display:block;
+    margin: 10px auto;
+    text-align: left;
+    border: 2px solid rgb(216, 208, 208);
+    padding: 4px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+
+}
+
+.j{
+    padding: 0px 45px;
+}
+.ii
+{
+  text-align: center;
+  padding: 0 16px ;
+  border-radius: 10px;
+  border-color: rgb(255, 0, 179);
+}
+.yy{
+    border: 0;
+    background-image: url(cc.jpg);
+    display:block;
+    margin: 10px auto;
+    text-align: left;
+    border: 2px solid rgb(216, 208, 208);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+
+
+}
+
+
